@@ -26,4 +26,4 @@ jobs:
         run: mvn package -Dmaven.test.skip=true # Compila o código fonte
 
       - name: Unit Test
-        run: mvn test # Executada os testes de unidade
+        run: mvn test # Executada os testes de unidade 
